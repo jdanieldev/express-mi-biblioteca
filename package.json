@@ -1,0 +1,29 @@
+{
+  "name": "mi-biblioteca",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdanieldev/express-mi-biblioteca.git"
+  },
+  "keywords": [
+    "wwcode",
+    "expressjs"
+  ],
+  "author": "Daniel Hernández",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jdanieldev/express-mi-biblioteca/issues"
+  },
+  "homepage": "https://github.com/jdanieldev/express-mi-biblioteca#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "yup": "^0.29.1"
+  }
+}
